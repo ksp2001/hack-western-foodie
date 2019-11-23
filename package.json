@@ -1,0 +1,23 @@
+{
+  "name": "hackwestern-ksp-jeff",
+  "version": "1.0.0",
+  "description": "1. Where Ketki and Jeffrey try to solve an actual problem by analyzing the ingredients in the fridge and attempt to find a recipe that can be made using those",
+  "main": "index.js",
+  "dependencies": {
+    "clarifai": "^2.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksp2001/hack-western-foodie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksp2001/hack-western-foodie/issues"
+  },
+  "homepage": "https://github.com/ksp2001/hack-western-foodie#readme"
+}
