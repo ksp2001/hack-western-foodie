@@ -25,7 +25,7 @@ app.models.predict("bd367be194cf45149e75f01d59f77ba7", imgURL).then(
     function(response) {
       let i = 0;
       response.outputs[0].data.concepts.forEach(element => {
-          if ((element.name != "vegetable") && (element.name != "meat") && (element.name != "salad") && (element.name != "dairy")) {
+          if ((element.name != "vegetable") && (element.name != "meat") && (element.name != "salad") && (element.name != "dairy") && (element.name != "fish")) {
             if (i<4) {
             ingredients.push(element.name);
             i+=1;
