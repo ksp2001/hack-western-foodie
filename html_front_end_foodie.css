@@ -1,0 +1,88 @@
+body, html {
+    background-color:rgb(229, 255, 229);
+    margin: 0%;
+
+  }
+
+.foodbackground {
+    width:100vw;
+    height:300px;
+    background-image: url("food_spread.jpg");
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-color:black;
+    /*padding-left: 35rem;*/
+    text-align:center;
+}
+
+  /* .whiteblock {
+
+   
+  } */
+
+
+.wrapper {
+
+    margin-top: 5rem;
+    display:inline-block;
+    background-color: white;
+    border-color: black;
+    border-style:solid;
+    width:470px;
+    border-width:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.title {
+    font-size: 35px;
+    font-family: "Courier New";
+    width: 450px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Courier New";
+}
+
+.form {
+    text-align: center;
+    margin-left: 80px;
+
+
+}
+
+.text {
+    height: 35px;
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    border-color: black;
+
+    
+}
+
+.button {
+    background-color: red;
+    height: 45px;
+    width: 80px;
+    border-radius: 45%;
+    margin-left:10px;
+    font-size: 20px;
+    font-family: "Courier New";
+    border-color: black;
+
+
+}
+
+  /* top: 130px;
+    left: 570px; */
+    /* border:8px;
+    border-style:solid;
+    border-color:black;
+    background-color:white;
+    height: 50px;
+    width: 100px;  */
