@@ -4,11 +4,14 @@
 2. We use the Clarifai api to recognize the ingredients on the photo, and then uses the top 4 appearing ingredients to search in AllRecipes to see dishes that contain them.
 
 ## HOW TO USE OUR PROGRAM
+_if you want to see the program locally, follow these steps —_
 1. Create a folder on your computer and open it in the Terminal (Command Line) :: [Quick Intro To CLI](https://launchschool.com/books/command_line/read/files_directories_executables#clicore)
 2. 'git init' into it so that it forms a local repository. Then do git clone _'clone with https' url found at the top_
 3. Then, _cd_ into the project folder in your terminal and type 'node index.js'.
 4. Lastly, you want to open your browser (make sure you do step 3 before this) and type http://localhost:3000/ to see our project in action!
 5. Last warning, make sure once you're done running it, go to terminal and hit Ctrl+C to exit out of the app.
+
+_if you want to see the program in action online, follow the heroku app link at the top_
 
 ## Inspiration : 
 We wanted to solve a practical problem we'd both faced in our day-to-day lives. Food wastage is a big issue in Canada, with over 2.2 million tonnes of edible food being wasted each year. We wanted to make something that not only makes our lives easier, but make a difference to the environment as well.
