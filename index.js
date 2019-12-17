@@ -15,7 +15,7 @@ app2.get('/', function(req, res){
    res.sendFile('html_front_end_foodie.html', {root: './public'});
 });
 
-app2.listen(3000);
+app2.listen(process.env.PORT || 3000);
 app2.post('/get-url', (req, res) => {
   let imgURL = ""
   imgURL = req.body.img_url
